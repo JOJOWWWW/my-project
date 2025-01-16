@@ -1,0 +1,28 @@
+Wow! Sugoi! Amazing!
+
+2. Set username and email:
+Code: git config --local user.name "JOJOWWWW"
+Code: git config --local user.email "jojo.bandayrel@lorma.edu"
+
+3. To view current config:
+Code: git config --list --local (Note: To confirm if your account is linked)
+
+4. Commit Changes:
+Code: git add <files>   or    .          (Note: Stage all uncommited or new changes. (Dot (.) sig))
+    git add filename
+
+    git commit -m "Initital commit"      (Note: commit changes)
+
+5. Rename branch master:
+Code: git branch -m main
+
+6. Connect to remote respository (GitHub):
+ - Create a new repository on Github, and then copy the repo link
+
+7. git remote add origin: https://github.com/JOJOWWWW/my-project.git
+   git remote show origin ()
+
+8. Push local changes to remote repo:
+ - git push origin main
+ - set
+Code: git push - u origin main
